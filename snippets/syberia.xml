@@ -5,7 +5,6 @@
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
 
   <!-- HALs -->
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aexmod" revision="8.1" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="qcom_display" remote="aexmod" revision="8.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom_audio" remote="aexmod" revision="8.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom_media" remote="aexmod" revision="8.1-caf-8996" />
