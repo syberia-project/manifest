@@ -705,5 +705,11 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Add all tracked Syberia repos -->
+  <include name="snippets/syberia.xml" />
 
 </manifest>
