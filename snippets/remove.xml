@@ -42,4 +42,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/power" />
+  
   </manifest>
