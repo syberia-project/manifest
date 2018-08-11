@@ -44,5 +44,6 @@
   
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/gps" />
   
   </manifest>

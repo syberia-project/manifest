@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="los"
+           fetch="https://github.com/lineageos"/>
+
   <remote  name="aexmod"
            fetch="https://github.com/AEXmod"
            revision="refs/heads/8.1" />
@@ -711,5 +714,8 @@
 
   <!-- Add all tracked Syberia repos -->
   <include name="snippets/syberia.xml" />
+
+  <!-- Add all tracked LineageOS repos -->
+  <include name="snippets/los.xml" />
 
 </manifest>
