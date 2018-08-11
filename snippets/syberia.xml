@@ -34,6 +34,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom_media" remote="aexmod" revision="8.1-caf-8996" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aexmod" revision="8.1-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom,pdk" remote="aexmod" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom,wlan" remote="syberia" revision="9.0" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />

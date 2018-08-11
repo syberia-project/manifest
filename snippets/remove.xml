@@ -58,6 +58,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
