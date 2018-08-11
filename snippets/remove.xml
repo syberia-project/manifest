@@ -46,6 +46,9 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />  
+  
   <!-- Framework -->
   <remove-project name="platform/frameworks/compile/mclinker" />
   

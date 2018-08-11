@@ -19,7 +19,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-    <!-- Frameworks -->
+  <!-- External -->
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
+  
+  <!-- Frameworks -->
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="syberia" />
 
   <!-- HALs -->
