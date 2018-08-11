@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- General -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  
   <!-- Device -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
@@ -42,8 +46,17 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/compile/mclinker" />
+  
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+  
+  <!-- Toolchains -->
+  <remove-project name="platform/prebuilts/build-tools" />
   
   </manifest>

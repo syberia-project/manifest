@@ -3,12 +3,39 @@
 
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="aexmod" />
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
+  
+  <!-- General -->
+  <project path="build/make" name="platform_build" remote="syberia" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="syberia" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+    <!-- Frameworks -->
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="syberia" />
 
   <!-- HALs -->
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="qcom_display" remote="aexmod" revision="8.1-caf-8996" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="aex"/>
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom_audio" remote="aexmod" revision="8.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="qcom_display" remote="aexmod" revision="8.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom_media" remote="aexmod" revision="8.1-caf-8996" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aexmod" revision="8.1-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom,pdk" remote="aexmod" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
+  
+  <!-- Vendor -->
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" >
 
 </manifest>
