@@ -5,7 +5,7 @@
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   
   <!-- General -->
-  <project path="build/make" name="platform_build" remote="syberia" >
+  <project path="build/make" name="platform_build" remote="syberia" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,7 +14,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="syberia" >
+  <project path="build/soong" name="platform_build_soong" remote="syberia" />
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -36,6 +36,6 @@
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
   
   <!-- Vendor -->
-  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" >
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
 
 </manifest>
