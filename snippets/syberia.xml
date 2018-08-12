@@ -27,9 +27,9 @@
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aex" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="aex"/>
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom_audio" remote="aexmod" revision="8.1-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="qcom_display" remote="aexmod" revision="8.1-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom_media" remote="aexmod" revision="8.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" groups="qcom_audio" remote="syberia" revision="9.0-caf" />
+  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" groups="qcom_display" remote="syberia" revision="9.0-caf" />
+  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" groups="qcom_media" remote="syberia" revision="9.0-caf" />
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="aexmod" revision="8.1-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom,pdk" remote="aexmod" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom,wlan" remote="syberia" revision="9.0" />
