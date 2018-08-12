@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aexmod" />
-  <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   
   <!-- General -->
   <project path="build/make" name="platform_build" remote="syberia" >
@@ -40,6 +37,7 @@
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
   
   <!-- Vendor -->
+  <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
 
