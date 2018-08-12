@@ -4,6 +4,7 @@
     <!-- General -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
   
   <!-- Device -->
   <remove-project name="device/common" />

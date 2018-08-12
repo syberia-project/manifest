@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="platform_bionic" remote="syberia" />
   
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
