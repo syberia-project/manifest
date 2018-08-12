@@ -33,6 +33,7 @@
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" groups="qcom,pdk" remote="aexmod" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom,wlan" remote="syberia" revision="9.0" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />

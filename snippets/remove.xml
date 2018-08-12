@@ -60,6 +60,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
