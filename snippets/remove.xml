@@ -63,4 +63,7 @@
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
   
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
   </manifest>
