@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" revision="lineage-16.0" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" revision="lineage-16.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0-caf" />
 
 </manifest>
