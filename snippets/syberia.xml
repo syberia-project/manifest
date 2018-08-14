@@ -24,14 +24,14 @@
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="syberia" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="aex" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="aex" />
-  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="aex"/>
-  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8996" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="9.0" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="aexmod" revision="8.1-caf" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="syberia" revision="9.0-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="aexmod" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
