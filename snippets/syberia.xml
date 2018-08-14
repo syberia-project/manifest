@@ -36,16 +36,19 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
   
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
+  <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
+  
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
+  
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="syberia" />
   
   <!-- Vendor -->
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
-
-  <!-- Packages -->
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
-  <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
 
 </manifest>
