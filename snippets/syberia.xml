@@ -21,7 +21,8 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   
   <!-- Frameworks -->
-  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="syberia" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="syberia" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0" />

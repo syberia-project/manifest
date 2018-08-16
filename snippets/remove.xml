@@ -51,6 +51,7 @@
   <remove-project name="platform/external/tinycompress" />  
   
   <!-- Framework -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   
   <!-- Hardware -->
