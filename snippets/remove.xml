@@ -51,6 +51,7 @@
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/base" />
   
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/power" />

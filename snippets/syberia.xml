@@ -21,6 +21,7 @@
   
   <!-- Frameworks -->
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="syberia" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="syberia"/>
 
   <!-- HALs -->
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aex" />
