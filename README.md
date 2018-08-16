@@ -5,7 +5,7 @@ To initialize your local repository, use a
 command like this:
 
 ```bash
-  repo init -u git@github.com:syberia-project/manifest.git -b 9.0
+  repo init -u https://github.com/syberia-project/manifest.git -b 9.0
 ```
   
 Then to sync up:
