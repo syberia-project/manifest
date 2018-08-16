@@ -16,6 +16,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" remote="syberia" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
