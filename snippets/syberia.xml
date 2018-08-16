@@ -50,5 +50,6 @@
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
 
 </manifest>
