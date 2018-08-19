@@ -27,6 +27,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="syberia" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0" />
@@ -47,6 +48,7 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
