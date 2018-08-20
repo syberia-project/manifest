@@ -21,6 +21,7 @@
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
+  <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   
   
   <!-- Frameworks -->
