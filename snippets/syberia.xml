@@ -51,6 +51,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
