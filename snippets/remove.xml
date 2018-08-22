@@ -91,6 +91,7 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/bt" />
   
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
