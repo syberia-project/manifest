@@ -53,8 +53,11 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
