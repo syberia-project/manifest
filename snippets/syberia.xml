@@ -17,7 +17,6 @@
   </project>
   <project path="bionic" name="platform_bionic" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
-  <project path="art" name="platform_art" remote="syberia" />
   
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
@@ -75,5 +74,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
 
 </manifest>
