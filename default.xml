@@ -23,6 +23,10 @@
            fetch="https://github.com/AospExtended"
            revision="refs/heads/8.1.x" />
 
+  <remote name="omni"
+          fetch="https://github.com/omnirom/"
+          revision="refs/heads/android-9.0" />
+
   <default revision="refs/tags/android-9.0.0_r8"
            remote="aosp"
            sync-j="4" />
@@ -725,5 +729,8 @@
 
   <!-- Add all tracked LineageOS repos -->
   <include name="snippets/los.xml" />
+
+  <!-- Add all tracked Omni repos -->
+  <include name="snippets/omni.xml" />
 
 </manifest>
