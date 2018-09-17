@@ -89,6 +89,7 @@
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Test/connectivity" />  
   <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
