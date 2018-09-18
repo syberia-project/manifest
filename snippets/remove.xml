@@ -103,6 +103,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/sepolicy" />
   
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />

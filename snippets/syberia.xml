@@ -70,6 +70,7 @@
   <project path="system/extras" name="platform_system_extras" remote="syberia" />
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/qcom" name="platform_system_qcom" remote="syberia" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   
   <!-- Vendor -->
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
@@ -78,5 +79,9 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+
+  <!-- SEPolicy -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
+  <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
 
 </manifest>
