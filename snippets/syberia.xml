@@ -36,12 +36,15 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8998" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8998" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="syberia" revision="9.0" />
+  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8998" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="9.0" />
