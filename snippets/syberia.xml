@@ -19,6 +19,7 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   
   <!-- External -->
+  <project path="external/drm_hwcomposer" name="platform_external_drm_hwcomposer" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
