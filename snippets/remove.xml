@@ -79,6 +79,7 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/DeskClock" />
