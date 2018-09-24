@@ -89,6 +89,14 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
 
+  <!-- Vendor NXP -->
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="syberia" />
+  <project path="vendor/nxp/opensource/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="syberia" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="syberia" />
+
   <!-- SEPolicy -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
   <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
