@@ -92,6 +92,9 @@
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
 
+  <!-- Proprietary QCOM -->
+  <project path="vendor/qcom/sdclang-6.0/linux-x86" name="platform_vendor_qcom_sdclang-6.0" remote="syberia" revision="6.0"/>
+
   <!-- Vendor NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="syberia" />
