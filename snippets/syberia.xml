@@ -81,7 +81,8 @@
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/qcom" name="platform_system_qcom" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
-  
+  <project path="system/vold" name="platform_system_vold" remote="syberia" />
+
   <!-- Vendor -->
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
@@ -89,6 +90,7 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
 
   <!-- Vendor NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
