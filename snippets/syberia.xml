@@ -57,6 +57,7 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="syberia" revision="9.0-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="syberia" revision="9.0-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="syberia" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="syberia" />
