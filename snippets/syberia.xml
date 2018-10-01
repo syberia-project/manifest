@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="art" name="platform_art" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   
@@ -24,6 +25,9 @@
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
+  <project path="external/skia" name="platform_external_skia" remote="syberia" />
+  <project path="external/skqp" name="platform_external_skqp" remote="syberia" />
+  <project path="external/vixl" name="platform_external_vixl" remote="syberia" />
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
 
   
