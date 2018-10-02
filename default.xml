@@ -27,7 +27,7 @@
           fetch="https://github.com/omnirom/"
           revision="refs/heads/android-9.0" />
 
-  <default revision="refs/tags/android-9.0.0_r8"
+  <default revision="refs/tags/android-9.0.0_r10"
            remote="aosp"
            sync-j="4" />
 
