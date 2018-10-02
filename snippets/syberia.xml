@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="art" name="platform_art" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   
@@ -24,6 +25,9 @@
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
+  <project path="external/skia" name="platform_external_skia" remote="syberia" />
+  <project path="external/skqp" name="platform_external_skqp" remote="syberia" />
+  <project path="external/vixl" name="platform_external_vixl" remote="syberia" />
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
 
   
@@ -53,6 +57,7 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="syberia" revision="9.0-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="syberia" revision="9.0-caf" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="syberia" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="syberia" />
@@ -82,7 +87,8 @@
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/qcom" name="platform_system_qcom" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
-  
+  <project path="system/vold" name="platform_system_vold" remote="syberia" />
+
   <!-- Vendor -->
   <project path="vendor/miui" name="platform_vendor_miui" remote="aexmod" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
@@ -90,6 +96,10 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
+
+  <!-- Proprietary QCOM -->
+  <project path="vendor/qcom/sdclang-6.0/linux-x86" name="platform_vendor_qcom_sdclang-6.0" remote="syberia" revision="6.0"/>
 
   <!-- Vendor NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
