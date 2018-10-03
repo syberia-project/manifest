@@ -29,6 +29,7 @@
   <project path="external/skqp" name="platform_external_skqp" remote="syberia" />
   <project path="external/vixl" name="platform_external_vixl" remote="syberia" />
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
+  <project path="external/libtextclassifier" name="platform_external_libtextclassifier" remote="syberia" />
 
   
   <!-- Frameworks -->

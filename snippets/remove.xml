@@ -60,6 +60,8 @@
   <remove-project name="platform/external/skqp" /> 
   <remove-project name="platform/external/vixl" /> 
   <remove-project name="platform/external/libphonenumber" />
+  <remove-project name="platform/external/libtextclassifier" />
+
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
