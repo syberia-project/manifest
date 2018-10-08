@@ -78,6 +78,8 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
+
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
