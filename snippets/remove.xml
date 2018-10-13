@@ -114,7 +114,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
