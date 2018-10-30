@@ -122,6 +122,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/netd" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
