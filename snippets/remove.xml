@@ -2,7 +2,6 @@
 <manifest>
 
     <!-- General -->
-
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bootable/recovery" />
@@ -61,7 +60,6 @@
   <remove-project name="platform/external/vixl" /> 
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libtextclassifier" />
-
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
@@ -93,7 +91,6 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
-
   
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -123,6 +120,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
