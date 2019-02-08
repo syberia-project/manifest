@@ -92,6 +92,8 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
   <project path="prebuilts/clang/host/linux-x86/8.0" name="DragonTC" remote="syberia" revision="9.0"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="syberia" />
+
   
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="syberia" />
