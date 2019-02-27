@@ -31,6 +31,7 @@
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
   <project path="external/libtextclassifier" name="platform_external_libtextclassifier" remote="syberia" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="syberia" />
   
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>

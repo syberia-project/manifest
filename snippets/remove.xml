@@ -60,6 +60,7 @@
   <remove-project name="platform/external/vixl" /> 
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
