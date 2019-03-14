@@ -11,6 +11,10 @@
            fetch="https://github.com/syberia-project"
 	   revision="refs/heads/9.0" />
 
+  <remote  name="SyberiaProject-Devices"
+           fetch="https://github.com/SyberiaProject-Devices"
+           revision="9.0" />
+
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
