@@ -4,6 +4,7 @@
     <!-- General -->
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
