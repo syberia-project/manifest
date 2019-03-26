@@ -49,17 +49,20 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0" />
+  <!--
   <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" remote="syberia" revision="9.0-caf-8998" /> -->
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="syberia" revision="9.0" />
+  <!--
   <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8998" /> -->
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="syberia" revision="9.0" />
+  <!--
   <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8998" /> -->
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="9.0-caf" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="syberia" revision="9.0-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="syberia" revision="9.0-caf" />
@@ -122,13 +125,13 @@
   <!-- Proprietary QCOM -->
   <project path="vendor/qcom/sdclang-6.0/linux-x86" name="platform_vendor_qcom_sdclang-6.0" remote="syberia" revision="6.0"/>
 
-  <!-- Vendor NXP -->
+  <!-- Vendor NXP 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="syberia" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="syberia" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="syberia" />
   <project path="vendor/nxp/opensource/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="syberia" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="syberia" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="syberia" /> -->
 
   <!-- SEPolicy -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
