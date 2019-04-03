@@ -75,6 +75,7 @@
   <remove-project name="platform/frameworks/support" />
   
   <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/audio" />

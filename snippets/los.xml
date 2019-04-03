@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" revision="lineage-16.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" revision="lineage-16.0" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" revision="lineage-16.0" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" revision="lineage-16.0" />
