@@ -51,6 +51,7 @@
   <remove-project name="device/sample" />
   
   <!-- External -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" /> 
