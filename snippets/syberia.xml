@@ -120,6 +120,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
+  <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
 
   <!-- Proprietary QCOM -->
   <project path="vendor/qcom/sdclang-6.0/linux-x86" name="platform_vendor_qcom_sdclang-6.0" remote="syberia" revision="6.0"/>
