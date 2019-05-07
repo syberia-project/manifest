@@ -4,6 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 	   
@@ -30,7 +31,7 @@
           fetch="https://github.com/omnirom/"
           revision="refs/heads/android-9.0" />
 
-  <default revision="refs/tags/android-9.0.0_r35"
+  <default revision="refs/tags/android-9.0.0_r37"
            remote="aosp"
            sync-j="4" />
 
