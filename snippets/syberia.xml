@@ -101,6 +101,7 @@
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
   <project path="prebuilts/clang/host/linux-x86/8.0" name="DragonTC" remote="syberia" revision="9.0"/>
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-9.1" remote="syberia" />
 
   
   <!-- System -->
