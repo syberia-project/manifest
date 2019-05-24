@@ -65,6 +65,7 @@
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
