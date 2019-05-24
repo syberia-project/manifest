@@ -22,6 +22,7 @@
   
   <!-- External -->
   <project path="external/drm_hwcomposer" name="platform_external_drm_hwcomposer" remote="syberia" />
+  <project path="external/jemalloc" name="platform_external_jemalloc" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
   <project path="external/proguard" name="platform_external_proguard" remote="syberia" />
