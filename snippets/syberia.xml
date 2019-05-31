@@ -83,6 +83,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="syberia" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="syberia" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="syberia" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="syberia" />
   <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="syberia" />
