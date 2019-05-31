@@ -23,6 +23,8 @@
   <!-- External -->
   <project path="external/drm_hwcomposer" name="platform_external_drm_hwcomposer" remote="syberia" />
   <project path="external/jemalloc" name="platform_external_jemalloc" remote="syberia" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
+  <project path="external/libpng" name="platform_external_libpng" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="syberia" />
   <project path="external/proguard" name="platform_external_proguard" remote="syberia" />
@@ -34,6 +36,7 @@
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
   <project path="external/libtextclassifier" name="platform_external_libtextclassifier" remote="syberia" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
+  <project path="external/webp" name="platform_external_webp" remote="syberia" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="syberia" />
   <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
   
