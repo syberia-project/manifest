@@ -35,6 +35,7 @@
   <project path="external/vixl" name="platform_external_vixl" remote="syberia" />
   <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="syberia" />
   <project path="external/libtextclassifier" name="platform_external_libtextclassifier" remote="syberia" />
+  <project path="external/llvm" name="platform_external_llvm" remote="syberia" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/webp" name="platform_external_webp" remote="syberia" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="syberia" />
@@ -49,6 +50,7 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="syberia" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="syberia" />
   <project path="frameworks/syberia" name="platform_frameworks_syberia" remote="syberia" />
 
@@ -119,6 +121,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
+  <project path="system/security" name="platform_system_security" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
 
   <!-- Vendor -->
