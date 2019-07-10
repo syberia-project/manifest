@@ -19,6 +19,7 @@
   <project path="art" name="platform_art" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
+  <project path="libcore" name="platform_libcore" remote="syberia" />
   
   <!-- External -->
   <project path="external/drm_hwcomposer" name="platform_external_drm_hwcomposer" remote="syberia" />
