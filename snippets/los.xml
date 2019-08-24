@@ -2,6 +2,7 @@
 <manifest>
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" revision="lineage-16.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" revision="lineage-16.0" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" revision="lineage-16.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" revision="lineage-16.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" revision="lineage-16.0" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" revision="lineage-16.0" />
