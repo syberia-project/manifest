@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- General -->
+  <project path="build/make" name="platform_build" remote="syberia" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="syberia" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="build/kati" name="platform_build_kati" remote="syberia" />
+  <project path="bionic" name="platform_bionic" remote="syberia" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
+
+  <!-- External -->
+  <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
+  <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="syberia" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="syberia" />
+  <project path="packages/apps/SyberiaPapers" name="platform_packages_apps_SyberiaPapers" remote="syberia" />
+  <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
+  <project path="packages/apps/Updates" name="platform_packages_apps_Updates" remote="syberia" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
+
+  <!-- Prebuilts -->
+<!--
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
+-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-9.1" remote="syberia" />
+  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="syberia" />
+
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="syberia" />
+  <project path="system/bt" name="platform_system_bt" remote="syberia" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
+  <project path="system/vold" name="platform_system_vold" remote="syberia" />
+  <project path="system/netd" name="platform_system_netd" remote="syberia" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
+
+  <!-- Vendor -->
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
+  <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
+
+  <!-- SEPolicy -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
+  <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
+
+</manifest>
