@@ -10,16 +10,20 @@ command like this:
 ```bash
   repo init -u https://github.com/syberia-project/manifest.git -b 9.0
 ```
-  
 Then to sync up:
 ----------------
 
 ```bash
-  repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
+Building ROM:
+----------------
 
-   . build/envsetup.sh
-       brunch <device_name>
+```bash
+  . build/envsetup.sh
+  lunch syberia_<device-codename>-userdebug
+  make bacon
+```
 
 Submitting Patches
 ------------------
