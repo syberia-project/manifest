@@ -41,6 +41,8 @@
   <project path="external/webp" name="platform_external_webp" remote="syberia" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="syberia" />
   <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
+  <project path="external/libcups" name="platform_external_libcups" remote="syberia" />
+  <project path="external/libhevc" name="platform_external_libhevc" remote="syberia" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
@@ -126,6 +128,7 @@
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
   <project path="system/security" name="platform_system_security" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
+  <project path="system/nfc" name="platform_system_nfc" remote="syberia" />
 
   <!-- Vendor -->
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />

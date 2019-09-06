@@ -77,6 +77,10 @@
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/system/nfc" />
+  
   
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
