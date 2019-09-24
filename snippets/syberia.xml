@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- General -->
+  <project path="art" name="platform_art" remote="syberia" />
   <project path="build/make" name="platform_build" remote="syberia" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,6 +31,10 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
+
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
