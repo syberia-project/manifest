@@ -23,6 +23,8 @@
 
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
+  <project path="external/skia" name="platform_external_skia" remote="syberia" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
