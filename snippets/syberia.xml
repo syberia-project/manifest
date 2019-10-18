@@ -17,11 +17,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="build/blueprint" name="platform_build_blueprint" remote="syberia" />
   <project path="build/kati" name="platform_build_kati" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
 
   <!-- External -->
+  <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/skia" name="platform_external_skia" remote="syberia" />

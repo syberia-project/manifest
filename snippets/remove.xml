@@ -4,6 +4,7 @@
   <!-- General -->
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bionic" />
@@ -65,6 +66,7 @@
   <remove-project name="kernel/tests" />
 
   <!-- External -->
+  <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />
