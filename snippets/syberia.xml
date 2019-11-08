@@ -69,6 +69,7 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="syberia" />
+  <project path="system/bpf" name="platform_system_bpf" remote="syberia" />
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
