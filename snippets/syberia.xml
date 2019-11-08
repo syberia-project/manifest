@@ -65,6 +65,7 @@
 -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-9.1" remote="syberia" revision="9.0" />
   <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="syberia" />
+  <project path="prebuilts/tools-lineage" name="platform_prebuilts_tools-lineage" remote="syberia" />
 
 
   <!-- System -->
