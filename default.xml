@@ -810,4 +810,7 @@
   <!-- Add all tracked Syberia repos -->
   <include name="snippets/syberia.xml" />
 
+  <!-- Add LOS repos -->
+  <include name="snippets/los.xml" />
+
 </manifest>
