@@ -22,7 +22,7 @@
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
-  <default revision="refs/tags/android-10.0.0_r16"
+  <default revision="refs/tags/android-10.0.0_r20"
            remote="aosp"
            sync-j="4" />
 
