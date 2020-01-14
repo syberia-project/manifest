@@ -67,11 +67,13 @@
   <remove-project name="kernel/tests" />
 
   <!-- External -->
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
