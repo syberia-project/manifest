@@ -810,4 +810,7 @@
   <!-- Add LOS repos -->
   <include name="snippets/los.xml" />
 
+  <!-- Add AOSPA repos -->
+  <include name="snippets/aospa.xml" />
+
 </manifest>
