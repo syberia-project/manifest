@@ -67,6 +67,7 @@
   <remove-project name="kernel/tests" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/proguard" />
