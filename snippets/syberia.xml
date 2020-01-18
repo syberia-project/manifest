@@ -83,10 +83,11 @@
 
   <!-- Vendor -->
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+  <project path="vendor/google/customization" name="platform_vendor_google_customization" remote="syberia" />
   <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
 
   <!-- SEPolicy -->
