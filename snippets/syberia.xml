@@ -86,6 +86,7 @@
   <!-- Vendor -->
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
+  <project path="vendor/dexopt_profiles" name="platform_vendor_dexopt_profiles" remote="syberia" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="syberia" />
