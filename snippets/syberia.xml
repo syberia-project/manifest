@@ -28,6 +28,7 @@
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/skia" name="platform_external_skia" remote="syberia" />
