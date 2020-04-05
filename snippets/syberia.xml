@@ -91,7 +91,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
-  <project path="vendor/google/customization" name="platform_vendor_google_customization" remote="syberia" />
   <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
 
   <!-- SEPolicy -->
