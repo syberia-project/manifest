@@ -75,6 +75,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Framework -->
@@ -162,5 +163,9 @@
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/prebuilts/build-tools" />
+
+  <!-- ABI dumps -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   </manifest>

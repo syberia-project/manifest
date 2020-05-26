@@ -33,6 +33,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/skia" name="platform_external_skia" remote="syberia" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
 
   <!-- Frameworks -->
@@ -99,5 +100,6 @@
   <!-- SEPolicy -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
   <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="syberia" />
 
 </manifest>
