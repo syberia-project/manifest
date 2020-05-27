@@ -166,8 +166,4 @@
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/prebuilts/build-tools" />
 
-  <!-- ABI dumps -->
-  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-
   </manifest>

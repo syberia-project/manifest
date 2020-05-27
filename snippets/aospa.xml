@@ -3,6 +3,4 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" revision="master" clone-depth="1" />
 
-  <project path="prebuilts/abi-dumps/ndk" name="AOSPA/android_prebuilts_abi-dumps_ndk" remote="github" revision="quartz" clone-depth="1" />
-  <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="github" revision="quartz" clone-depth="1" />
 </manifest>
