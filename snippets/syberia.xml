@@ -25,6 +25,7 @@
 
   <!-- External -->
   <project path="external/angle" name="platform_external_angle" remote="syberia" />
+  <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
