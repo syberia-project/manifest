@@ -5,11 +5,10 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
-  <remove-project name="platform/build/kati" />
-  <remove-project name="platform/bootable/recovery" />
+<!--  <remove-project name="platform/bootable/recovery" /> -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/libcore" />
+<!--  <remove-project name="platform/libcore" /> -->
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -40,12 +39,9 @@
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_common" />
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/marlin" />
-  <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
@@ -67,7 +63,7 @@
   <remove-project name="kernel/tests" />
 
   <!-- External -->
-  <remove-project name="platform/external/arm-optimized-routines" />
+<!--  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/kernel-headers" />
@@ -79,14 +75,17 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+-->
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+<!--
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
+-->
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/camera" />
@@ -95,9 +94,11 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
+<!--
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+-->
 
 <!--
   <remove-project name="platform/hardware/qcom/wlan" />
@@ -125,6 +126,7 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
 
   <!-- Packages -->
+<!--
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -154,8 +156,10 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+-->
 
   <!-- System -->
+<!--
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
@@ -164,12 +168,16 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
+-->
 
   <!-- Toolchains -->
+<!--
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/prebuilts/build-tools" />
+-->
 
   <!-- ABI dumps -->
+<!--
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
-
+-->
   </manifest>
