@@ -851,7 +851,7 @@
   <include name="snippets/remove.xml" />
 
   <!-- Add all tracked Syberia repos -->
-<!--  <include name="snippets/syberia.xml" /> -->
+  <include name="snippets/syberia.xml" />
 
   <!-- Add LOS repos -->
 <!--  <include name="snippets/los.xml" /> -->
