@@ -8,7 +8,7 @@ To initialize your local repository, use a
 command like this:
 
 ```bash
-  repo init -u https://github.com/syberia-project/manifest.git -b 10.0
+  repo init -u https://github.com/syberia-project/manifest.git -b 11.0
 ```
   
 Then to sync up:
@@ -30,7 +30,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.syberiaos.com:29418/syberia-project/<project> HEAD:refs/for/10.0
+    git push ssh://<username>@gerrit.syberiaos.com:29418/syberia-project/<project> HEAD:refs/for/11.0
 
 Register at <gerrit.syberiaos.com> and use the username that you registered there in the above command
 
