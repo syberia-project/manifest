@@ -88,6 +88,9 @@
 -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
   <project path="prebuilts/tools-lineage" name="platform_prebuilts_tools-lineage" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="syberia" />
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="syberia" />
