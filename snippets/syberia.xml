@@ -30,7 +30,6 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/angle" name="platform_external_angle" remote="syberia" />
   <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
-  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
@@ -39,6 +38,7 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
 -->
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
 
   <!-- Frameworks -->
