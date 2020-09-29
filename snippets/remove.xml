@@ -95,8 +95,8 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-<!--
   <remove-project name="platform/frameworks/opt/telephony" />
+<!--
   <remove-project name="platform/frameworks/opt/net/ims" />
 -->
 
@@ -143,7 +143,6 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -164,6 +163,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
 -->
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Launcher3" />

@@ -45,11 +45,11 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
 <!--
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
 -->
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
 
   <!-- Hardware -->
 <!--
@@ -65,7 +65,6 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="syberia" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="syberia" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="syberia" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
@@ -76,6 +75,7 @@
 -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="syberia" />
