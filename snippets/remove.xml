@@ -81,7 +81,6 @@
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/proguard" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
@@ -89,6 +88,7 @@
 
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
