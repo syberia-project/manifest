@@ -854,7 +854,7 @@
   <include name="snippets/syberia.xml" />
 
   <!-- Add LOS repos -->
-<!--  <include name="snippets/los.xml" /> -->
+  <include name="snippets/los.xml" />
 
   <!-- Add AOSPA repos -->
 <!--  <include name="snippets/aospa.xml" /> -->
