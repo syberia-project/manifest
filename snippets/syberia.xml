@@ -72,6 +72,7 @@
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
 -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
+  <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="syberia"/>
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
