@@ -141,7 +141,6 @@
 <!--
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
-  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
@@ -162,6 +161,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -175,11 +175,11 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/update_engine" />
 -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
   <!-- Toolchains -->
