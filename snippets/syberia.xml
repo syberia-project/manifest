@@ -99,13 +99,14 @@
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/extras" name="platform_system_extras" remote="syberia" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
+  <project path="system/netd" name="platform_system_netd" remote="syberia" />
+  <project path="system/media" name="platform_system_media" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
 <!--
   <project path="system/bpf" name="platform_system_bpf" remote="syberia" />
-  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
-  <project path="system/netd" name="platform_system_netd" remote="syberia" />
 -->
 
   <!-- Vendor -->
