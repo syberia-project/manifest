@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" revision="lineage-18.0" />
-<!--  <project path="external/exfat" name="android_external_exfat" remote="los" revision="lineage-17.1" /> -->
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-17.1" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-18.0" />
   <project path="external/json-c" name="android_external_json-c" remote="los" revision="lineage-18.0" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-18.0" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-18.0" />

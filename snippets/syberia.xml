@@ -37,6 +37,7 @@
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
+  <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
@@ -116,6 +117,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="syberia" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
   <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="syberia" />
