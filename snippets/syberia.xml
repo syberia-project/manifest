@@ -48,10 +48,8 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
-<!--
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
--->
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
 
   <!-- Hardware -->
 <!--
@@ -67,7 +65,6 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="syberia" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="syberia" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
@@ -87,6 +84,7 @@
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
 
   <!-- Prebuilts -->
 <!--
