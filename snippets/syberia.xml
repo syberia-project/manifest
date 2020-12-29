@@ -129,7 +129,6 @@
 
   <!-- SEPolicy -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
-  <project path="device/qcom/sepolicy_q" name="platform_device_qcom_sepolicy" remote="syberia" revision="11.0-q" />
   <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
 <!--
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="syberia" />
