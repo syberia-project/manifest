@@ -77,6 +77,9 @@
   <remove-project name="platform/external/skia" />
 -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/icu" />
+
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/selinux" />
@@ -174,6 +177,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
