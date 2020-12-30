@@ -35,6 +35,7 @@
   <project path="external/skia" name="platform_external_skia" remote="syberia" />
 -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
+  <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
