@@ -167,9 +167,8 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- System -->
-<!--
   <remove-project name="platform/system/bpf" />
--->
+  <remove-project name="platform/system/bpfprogs" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
