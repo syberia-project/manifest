@@ -57,6 +57,7 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="11.0-caf" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
+  <project path="hardware/syberia" name="platform_hardware_syberia" remote="syberia" />
 
   <!-- Packages -->
 <!--
