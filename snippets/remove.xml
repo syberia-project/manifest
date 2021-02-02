@@ -82,6 +82,8 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libyuv" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/sqlite" />
@@ -172,6 +174,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />

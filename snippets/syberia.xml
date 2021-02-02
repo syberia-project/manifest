@@ -34,6 +34,8 @@
 -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
+  <project path="external/libvpx" name="platform_external_libvpx" remote="syberia" />
+  <project path="external/libyuv" name="platform_external_libyuv" remote="syberia" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
@@ -103,6 +105,7 @@
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/extras" name="platform_system_extras" remote="syberia" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
   <project path="system/media" name="platform_system_media" remote="syberia" />
