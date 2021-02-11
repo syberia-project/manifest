@@ -47,6 +47,7 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="syberia" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
