@@ -26,7 +26,7 @@
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
-  <default revision="refs/tags/android-11.0.0_r33"
+  <default revision="refs/tags/android-11.0.0_r35"
            remote="aosp" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
