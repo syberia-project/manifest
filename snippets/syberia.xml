@@ -114,6 +114,9 @@
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
 
+  <!-- Tools -->
+  <project path="tools/metalava" name="platform_tools_metalava" remote="syberia" />
+
   <!-- Vendor -->
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
