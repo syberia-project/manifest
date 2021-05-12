@@ -34,6 +34,7 @@
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
   <project path="external/libvpx" name="platform_external_libvpx" remote="syberia" />
   <project path="external/libyuv" name="platform_external_libyuv" remote="syberia" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
