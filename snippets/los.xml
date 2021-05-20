@@ -29,6 +29,8 @@
   </project>
 
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" revision="lineage-18.1" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" revision="lineage-18.1" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" revision="lineage-18.1" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-18.1" />
   <project path="external/json-c" name="android_external_json-c" remote="los" revision="lineage-18.1" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-18.1" />

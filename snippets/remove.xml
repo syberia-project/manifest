@@ -79,6 +79,8 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libjpeg-turbo" />
