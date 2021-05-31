@@ -181,6 +181,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
