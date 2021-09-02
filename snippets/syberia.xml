@@ -32,6 +32,7 @@
   <project path="external/skia" name="platform_external_skia" remote="syberia" />
 -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="syberia" />
   <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
