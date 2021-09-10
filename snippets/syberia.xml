@@ -26,7 +26,6 @@
   <!-- External -->
 <!--
   <project path="external/angle" name="platform_external_angle" remote="syberia" />
-  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/skia" name="platform_external_skia" remote="syberia" />
@@ -41,10 +40,11 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/scudo" name="platform_external_scudo" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
-  <project path="external/zlib" name="platform_external_zlib" remote="syberia" />
+  <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
