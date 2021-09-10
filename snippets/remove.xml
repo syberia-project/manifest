@@ -71,7 +71,6 @@
   <!-- External -->
 <!--
   <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/skia" />
@@ -82,6 +81,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libyuv" />
