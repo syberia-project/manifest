@@ -26,7 +26,7 @@
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
-  <default revision="refs/tags/android-11.0.0_r45"
+  <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp"/>
