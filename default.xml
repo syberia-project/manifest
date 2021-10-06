@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="syberia"
+           fetch="https://github.com/syberia-project"
+           revision="refs/heads/11.0" />
+
+  <remote  name="syberia-bb"
+           fetch="https://bitbucket.org/syberia-project"
+           revision="refs/heads/11.0" />
+
+  <remote  name="SyberiaProject-Devices"
+           fetch="https://github.com/SyberiaProject-Devices"
+           revision="10.0" />
+
+  <remote  name="los"
+           fetch="https://github.com/lineageos"/>
+
   <default revision="refs/tags/android-12.0.0_r2"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1091,5 +1111,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
 
 </manifest>
