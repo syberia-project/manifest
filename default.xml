@@ -12,7 +12,7 @@
 
   <remote  name="syberia"
            fetch="https://github.com/syberia-project"
-           revision="refs/heads/11.0" />
+           revision="refs/heads/12.0" />
 
   <remote  name="syberia-bb"
            fetch="https://bitbucket.org/syberia-project"
@@ -1114,5 +1114,8 @@
 
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
+
+  <!-- Add all tracked Syberia repos -->
+  <include name="snippets/syberia.xml" />
 
 </manifest>
