@@ -50,6 +50,7 @@
   <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
 -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="syberia" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
