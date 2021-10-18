@@ -1118,4 +1118,6 @@
   <!-- Add all tracked Syberia repos -->
   <include name="snippets/syberia.xml" />
 
+  <!-- Add all tracked LineageOS repos -->
+  <include name="snippets/los.xml" />
 </manifest>
