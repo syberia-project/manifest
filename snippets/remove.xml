@@ -115,10 +115,10 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/chromium-webview" />
 -->
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework -->
@@ -141,9 +141,9 @@
   <remove-project name="platform/hardware/qcom/media" />
 <!--
   <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
 -->
+  <remove-project name="platform/hardware/libhardware" />
 
 <!--
   <remove-project name="platform/hardware/qcom/wlan" />
@@ -190,20 +190,20 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
 -->
 
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- System -->
 <!--
@@ -214,15 +214,15 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />
 -->
 
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Tools -->
 <!--
