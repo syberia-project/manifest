@@ -122,13 +122,13 @@
 <!--
   <project path="system/bpf" name="platform_system_bpf" remote="syberia" />
   <project path="system/bpfprogs" name="platform_system_bpfprogs" remote="syberia" />
-  <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/extras" name="platform_system_extras" remote="syberia" />
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
   <project path="system/media" name="platform_system_media" remote="syberia" />
 -->
+  <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
@@ -154,11 +154,11 @@
 <!--
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="syberia" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
+-->
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="syberia" />
--->
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
 
   <!-- SEPolicy -->
