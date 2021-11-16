@@ -20,11 +20,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
 <!--
   <project path="build/kati" name="platform_build_kati" remote="syberia" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="syberia" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   <project path="libcore" name="platform_libcore" remote="syberia" />
 -->
 
@@ -69,9 +69,9 @@
   <!-- Hardware -->
 <!--
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
 -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="12.0-caf" />
   <project path="hardware/syberia" name="platform_hardware_syberia" remote="syberia" />
 
@@ -130,6 +130,7 @@
 -->
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/core" name="platform_system_core" remote="syberia" />
+  <project path="system/security" name="platform_system_security" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
