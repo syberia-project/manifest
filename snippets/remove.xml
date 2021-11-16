@@ -182,7 +182,6 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -195,6 +194,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
 -->
 
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -205,7 +205,6 @@
 <!--
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bpfprogs" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/linkerconfig" />
@@ -214,6 +213,7 @@
   <remove-project name="platform/system/timezone" />
 -->
 
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
