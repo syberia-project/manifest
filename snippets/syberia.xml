@@ -2,10 +2,6 @@
 <manifest>
 
   <!-- General -->
-<!--
-  <project path="art" name="platform_art" remote="syberia" />
--->
-
   <project path="build/make" name="platform_build" remote="syberia" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,12 +16,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="platform_art" remote="syberia" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
   <project path="bionic" name="platform_bionic" remote="syberia" />
+  <project path="libcore" name="platform_libcore" remote="syberia" />
 <!--
   <project path="build/kati" name="platform_build_kati" remote="syberia" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="syberia" />
-  <project path="libcore" name="platform_libcore" remote="syberia" />
 -->
 
   <!-- External -->
