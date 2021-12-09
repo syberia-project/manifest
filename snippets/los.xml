@@ -28,6 +28,7 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" revision="lineage-19.0" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" revision="lineage-19.0" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" revision="lineage-19.0" />
   <project path="external/mksh" name="android_external_mksh" remote="los" revision="lineage-19.0" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" revision="lineage-18.1" />
