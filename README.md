@@ -15,7 +15,7 @@ Then to sync up:
 ----------------
 
 ```bash
-  repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+  repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
    . build/envsetup.sh
