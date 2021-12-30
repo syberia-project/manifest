@@ -102,7 +102,6 @@
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/skia" />
-  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/icu" />
@@ -114,6 +113,7 @@
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/chromium-webview" />
 -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
