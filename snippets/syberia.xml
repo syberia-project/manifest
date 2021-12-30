@@ -79,7 +79,6 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="syberia" />
   <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="syberia"/>
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="syberia" />
@@ -104,6 +103,10 @@
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
+  <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
+  <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
 
   <!-- Prebuilts -->
 <!--
