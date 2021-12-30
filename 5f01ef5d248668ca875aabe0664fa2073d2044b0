@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e737b8f4_fe418665",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000015
+      },
+      "writtenOn": "2021-12-30T13:44:20Z",
+      "side": 1,
+      "message": "Repos for now are located on my org please fork or import them in syberia repos",
+      "revId": "5f01ef5d248668ca875aabe0664fa2073d2044b0",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    }
+  ]
+}
