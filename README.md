@@ -17,9 +17,14 @@ Then to sync up:
 ```bash
   repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
-
-   . build/envsetup.sh
-       brunch <device_name>
+  
+Build it:
+----------------
+```bash
+    . build/envsetup.sh
+    lunch syberia_<devicecodename>-<buildtype>
+    make bacon | tee log.txt
+```
 
 Submitting Patches
 ------------------
