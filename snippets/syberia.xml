@@ -153,6 +153,9 @@
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="syberia" />
   <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
 
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="syberia-gl" />
+
 <!--
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="syberia" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />

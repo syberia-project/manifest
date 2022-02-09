@@ -18,6 +18,10 @@
            fetch="https://bitbucket.org/syberia-project"
            revision="refs/heads/11.0" />
 
+  <remote  name="syberia-gl"
+           fetch="https://gitlab.com/syberia-project"
+           revision="refs/heads/12.0" />
+
   <remote  name="SyberiaProject-Devices"
            fetch="https://github.com/SyberiaProject-Devices"
            revision="10.0" />
