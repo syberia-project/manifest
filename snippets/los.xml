@@ -40,7 +40,6 @@
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" revision="lineage-19.1" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-19.1" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-19.1" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-19.1" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" revision="lineage-19.1" />
 
   <project path="system/libziparchive" name="android_system_libziparchive" remote="los" revision="lineage-19.1" />
