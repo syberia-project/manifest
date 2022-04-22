@@ -112,6 +112,10 @@
   <!-- Graphene OS -->
   <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
 
+  <!-- Repainer service -->
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+
+
   <!-- Prebuilts -->
 <!--
   <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="syberia" />
