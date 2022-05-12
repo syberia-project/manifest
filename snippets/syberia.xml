@@ -109,12 +109,8 @@
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
 
-  <!-- Graphene OS -->
-  <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
-
   <!-- Repainer service -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-
 
   <!-- Prebuilts -->
 <!--
