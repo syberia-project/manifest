@@ -74,15 +74,12 @@
 
   <!-- Packages -->
 <!--
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="syberia" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="syberia" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="syberia" />
   <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="syberia"/>
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="syberia" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="syberia" />
   <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="syberia" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="syberia" />
@@ -91,19 +88,22 @@
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
 -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
-  <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="syberia" />
-  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia"/>
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="syberia" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
+  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia"/>
+  <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="syberia" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
   <project path="packages/apps/Matlog" name="omnirom/android_packages_apps_Matlog" remote="github" revision="android-11"/>
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
   <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="syberia" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
-  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
