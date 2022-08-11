@@ -29,10 +29,10 @@
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
-  <default revision="refs/tags/android-12.1.0_r11"
+  <default revision="refs/tags/android-12.1.0_r22"
            remote="aosp" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r11" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
