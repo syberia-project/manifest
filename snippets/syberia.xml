@@ -46,6 +46,7 @@
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="syberia" />
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" />
+  <project path="external/icu" name="platform_external_icu" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="syberia" />
@@ -87,6 +88,7 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="syberia" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
 -->
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="syberia" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
@@ -103,10 +105,10 @@
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="syberia" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
 
   <!-- Repainer service -->
@@ -130,12 +132,12 @@
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
-  <project path="system/media" name="platform_system_media" remote="syberia" />
 -->
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/security" name="platform_system_security" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
+  <project path="system/media" name="platform_system_media" remote="syberia" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
