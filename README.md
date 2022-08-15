@@ -18,8 +18,9 @@ Then to sync up:
   repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
-   . build/envsetup.sh
-       brunch <device_name>
+```bash
+./rom-build.sh DEVICE_CODENAME
+```
 
 Submitting Patches
 ------------------
