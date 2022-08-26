@@ -2,11 +2,25 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="syberia"
+           fetch="https://github.com/syberia-project"
+           revision="refs/heads/13.0" />
+
+  <remote  name="syberia-gl"
+           fetch="https://gitlab.com/syberia-project"
+           revision="refs/heads/13.0" />
+
   <default revision="refs/tags/android-13.0.0_r3"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r3" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1167,4 +1181,14 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Add all tracked Syberia repos -->
+  <include name="snippets/syberia.xml" />
+
+  <!-- Add all tracked LineageOS repos -->
+  <include name="snippets/los.xml" />
+
 </manifest>

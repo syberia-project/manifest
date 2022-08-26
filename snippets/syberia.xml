@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- General -->
+  <project path="build/make" name="platform_build" remote="syberia" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="syberia" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="platform_art" remote="syberia" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="syberia" />
+  <project path="bionic" name="platform_bionic" remote="syberia" />
+<!--
+  <project path="libcore" name="platform_libcore" remote="syberia" />
+  <project path="build/kati" name="platform_build_kati" remote="syberia" />
+  <project path="build/blueprint" name="platform_build_blueprint" remote="syberia" />
+-->
+
+  <!-- External -->
+<!--
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
+  <project path="external/angle" name="platform_external_angle" remote="syberia" />
+  <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
+  <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
+  <project path="external/skia" name="platform_external_skia" remote="syberia" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="syberia" />
+  <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
+  <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
+  <project path="external/libvpx" name="platform_external_libvpx" remote="syberia" />
+  <project path="external/libyuv" name="platform_external_libyuv" remote="syberia" />
+  <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
+  <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
+  <project path="external/scudo" name="platform_external_scudo" remote="syberia" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
+  <project path="external/colorkt" name="platform_external_colorkt" remote="syberia" />
+  <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" />
+  <project path="external/icu" name="platform_external_icu" remote="syberia" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="syberia" />
+  <project path="external/themelib" name="platform_external_themelib" remote="syberia" />
+  <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
+-->
+  <project path="external/json-c" name="platform_external_json-c" remote="syberia" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
+
+  <!-- Frameworks -->
+<!--
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="syberia" />
+-->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
+  <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
+
+  <!-- Hardware -->
+<!--
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="syberia" />
+  <project path="hardware/syberia" name="platform_hardware_syberia" remote="syberia" />
+-->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="syberia" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="syberia" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="syberia" revision="13.0-caf" />
+
+  <!-- Packages -->
+<!--
+  <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="syberia" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="syberia" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="syberia" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="syberia" />
+  <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="syberia"/>
+  <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="syberia" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="syberia" />
+  <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="syberia" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="syberia" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="syberia" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="syberia" />
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="syberia" />
+  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia"/>
+  <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="syberia" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
+  <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
+  <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="syberia" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
+  <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
+  <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="syberia" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
+-->
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
+  <project path="packages/apps/Matlog" name="omnirom/android_packages_apps_Matlog" remote="github" revision="android-13.0"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
+
+  <!-- Repainer service -->
+<!--
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+-->
+
+  <!-- Prebuilts -->
+<!--
+  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="syberia" />
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="syberia" revision="11.0" />
+-->
+  <project path="prebuilts/tools-lineage" name="platform_prebuilts_tools-lineage" remote="syberia" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="syberia" revision="11.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="syberia" revision="11.0" />
+
+  <!-- System -->
+<!--
+  <project path="system/bpf" name="platform_system_bpf" remote="syberia" />
+  <project path="system/bpfprogs" name="platform_system_bpfprogs" remote="syberia" />
+  <project path="system/extras" name="platform_system_extras" remote="syberia" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
+  <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
+  <project path="system/netd" name="platform_system_netd" remote="syberia" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
+  <project path="system/bt" name="platform_system_bt" remote="syberia" />
+-->
+  <project path="system/core" name="platform_system_core" remote="syberia" />
+  <project path="system/security" name="platform_system_security" remote="syberia" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
+  <project path="system/media" name="platform_system_media" remote="syberia" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
+  <project path="system/vold" name="platform_system_vold" remote="syberia" />
+
+  <!-- Tools -->
+<!--
+  <project path="tools/metalava" name="platform_tools_metalava" remote="syberia" />
+-->
+
+  <!-- Vendor -->
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="syberia" />
+  <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="syberia" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="syberia" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="syberia" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="syberia" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="syberia" />
+  <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
+<!--
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="syberia" />
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="syberia-gl" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="syberia" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="syberia" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="syberia" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="syberia" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="syberia" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="syberia" />
+-->
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="syberia" />
+
+  <!-- SEPolicy -->
+<!--
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="syberia" />
+  <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="syberia" />
+-->
+</manifest>
