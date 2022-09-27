@@ -89,8 +89,6 @@
   <!-- External -->
 <!--
   <remove-project name="platform/external/sqlite" />
-  <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/kernel-headers" />
@@ -107,6 +105,8 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/zlib" />
 -->
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
@@ -182,9 +182,7 @@
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
@@ -196,6 +194,8 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
   <!-- System -->
 <!--

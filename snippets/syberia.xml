@@ -27,7 +27,6 @@
 
   <!-- External -->
 <!--
-  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/angle" name="platform_external_angle" remote="syberia" />
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
@@ -41,7 +40,6 @@
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
   <project path="external/scudo" name="platform_external_scudo" remote="syberia" />
-  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="syberia" />
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" />
   <project path="external/icu" name="platform_external_icu" remote="syberia" />
@@ -50,7 +48,9 @@
   <project path="external/themelib" name="platform_external_themelib" remote="syberia" />
   <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
 -->
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/json-c" name="platform_external_json-c" remote="syberia" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
 
   <!-- Frameworks -->
@@ -92,24 +92,24 @@
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia"/>
   <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="syberia" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="syberia" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="syberia" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="syberia" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
-  <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="syberia" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
 -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
   <project path="packages/apps/Matlog" name="omnirom/android_packages_apps_Matlog" remote="github" revision="android-13.0"/>
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="syberia" />
+  <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="syberia" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="syberia" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="syberia" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="syberia" />
 
   <!-- Repainer service -->
 <!--
@@ -135,7 +135,6 @@
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
-  <project path="system/bt" name="platform_system_bt" remote="syberia" />
 -->
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/security" name="platform_system_security" remote="syberia" />
@@ -175,8 +174,9 @@
   <!-- SEPolicy -->
 <!--
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="syberia" />
+-->
   <project path="device/syberia/sepolicy" name="platform_device_syberia_sepolicy" remote="syberia" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="syberia" />
--->
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="syberia" revision="13.0-legacy-um" />
 </manifest>
