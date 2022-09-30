@@ -149,6 +149,8 @@
 -->
 
   <!-- Vendor -->
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="syberia-gl" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="syberia" />
@@ -159,8 +161,6 @@
   <project path="vendor/interfaces" name="platform_vendor_interfaces" remote="syberia" />
 <!--
   <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="syberia" />
-  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="syberia-gl" />
-  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="syberia" />
@@ -178,4 +178,5 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="syberia" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="syberia" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="syberia" revision="13.0-legacy-um" />
+
 </manifest>
