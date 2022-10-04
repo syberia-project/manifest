@@ -103,7 +103,6 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/external/zlib" />
 -->
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -111,6 +110,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Framework -->
 <!--
