@@ -88,7 +88,6 @@
 
   <!-- External -->
 <!--
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/kernel-headers" />
@@ -97,18 +96,19 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/libpng" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/chromium-webview" />
 -->
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
 
@@ -208,12 +208,12 @@
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/libziparchive" />
-  <remove-project name="platform/system/memory/lmkd" />
 -->
 
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />

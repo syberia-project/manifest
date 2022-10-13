@@ -34,7 +34,6 @@
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="syberia" />
   <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/cpu_features" name="platform_external_cpu_features" remote="syberia" />
-  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
   <project path="external/libvpx" name="platform_external_libvpx" remote="syberia" />
   <project path="external/libyuv" name="platform_external_libyuv" remote="syberia" />
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
@@ -42,13 +41,14 @@
   <project path="external/scudo" name="platform_external_scudo" remote="syberia" />
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" />
   <project path="external/icu" name="platform_external_icu" remote="syberia" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="syberia" />
 -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="syberia" />
   <project path="external/json-c" name="platform_external_json-c" remote="syberia" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/themelib" name="platform_external_themelib" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
   <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
@@ -134,12 +134,12 @@
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
-  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
 -->
   <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/security" name="platform_system_security" remote="syberia" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/media" name="platform_system_media" remote="syberia" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
 
