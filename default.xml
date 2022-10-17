@@ -19,10 +19,10 @@
            fetch="https://gitlab.com/syberia-project"
            revision="refs/heads/13.0" />
 
-  <default revision="refs/tags/android-13.0.0_r7"
+  <default revision="refs/tags/android-13.0.0_r11"
            remote="aosp" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r7" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r11" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
