@@ -4,7 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-<<<<<<< HEAD
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -23,12 +22,6 @@
   <default revision="refs/tags/android-13.0.0_r11"
            remote="aosp" />
 
-=======
-  <default revision="refs/tags/android-13.0.0_r11"
-           remote="aosp"
-           sync-j="4" />
-
->>>>>>> 0d708ef1472f9e37916892ba75943bec948a01b8
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r11" />
   <contactinfo bugurl="go/repo-bug" />
 
