@@ -39,12 +39,12 @@
   <project path="external/selinux" name="platform_external_selinux" remote="syberia" />
   <project path="external/exfat" name="platform_external_exfat" remote="syberia" />
   <project path="external/scudo" name="platform_external_scudo" remote="syberia" />
-  <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" />
   <project path="external/icu" name="platform_external_icu" remote="syberia" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="syberia" />
 -->
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="syberia" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="syberia" />
+  <project path="external/faceunlock" name="platform_external_faceunlock" remote="syberia-gl" revision="12.1"/>
   <project path="external/json-c" name="platform_external_json-c" remote="syberia" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
@@ -55,12 +55,12 @@
 
   <!-- Frameworks -->
 <!--
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
 -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="syberia" />
 
@@ -89,7 +89,6 @@
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="syberia" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="syberia" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="syberia" />
-  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia"/>
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="syberia" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="syberia" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="syberia" />
@@ -98,6 +97,7 @@
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="syberia" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="syberia" />
 -->
+  <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="syberia" />
   <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="syberia" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="syberia" />
   <project path="packages/apps/Matlog" name="platform_packages_apps_Matlog" remote="syberia" />
