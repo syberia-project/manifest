@@ -48,7 +48,6 @@
   <project path="external/json-c" name="platform_external_json-c" remote="syberia" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="syberia" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="syberia" />
-  <project path="external/mimalloc" name="platform_external_mimalloc" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/themelib" name="platform_external_themelib" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
