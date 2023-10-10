@@ -117,6 +117,7 @@
   <remove-project name="platform/external/chromium-webview" />
 -->
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -183,7 +184,6 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
 
-  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -206,9 +206,11 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- System -->
@@ -236,6 +238,7 @@
 <!--
   <remove-project name="platform/tools/metalava" />
 -->
+  <remove-project name="platform/tools/apksig" />
 
   <!-- Toolchains -->
 <!--

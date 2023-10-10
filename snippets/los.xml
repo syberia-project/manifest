@@ -30,6 +30,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
   <project path="external/mksh" name="android_external_mksh" remote="los" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="los" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" revision="lineage-20.0-caf" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-20.0" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="los" revision="lineage-20.0" />
@@ -43,7 +44,9 @@
   <!-- Kernel build tools -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.44" />
 
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="los" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="los" />
 
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="los" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="los" />
@@ -64,4 +67,6 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" groups="qcom,lahaina" remote="los" revision="lineage-19.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" groups="qcom,lahaina" remote="los" revision="lineage-19.1-sn100x" />
 
+  <!-- Tools -->
+  <project path="tools/apksig" name="android_tools_apksig" remote="los" />
 </manifest>
