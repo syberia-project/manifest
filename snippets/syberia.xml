@@ -50,6 +50,7 @@
   <project path="external/themelib" name="platform_external_themelib" remote="syberia" />
   <project path="external/zlib-ng" name="platform_external_zlib-ng" remote="syberia" />
 -->
+  <project path="external/cronet" name="platform_external_cronet" remote="syberia" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="syberia" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="syberia" />
 

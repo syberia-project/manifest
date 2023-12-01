@@ -119,6 +119,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/zlib" />
 -->
+  <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/e2fsprogs" />
