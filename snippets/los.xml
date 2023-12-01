@@ -4,33 +4,6 @@
           revision="lineage-21.0"
           fetch="https://github.com/lineageos"/>
 
-<project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-  </project>
-
   <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" remote="los" revision="lineage-21.0-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" remote="los"  revision="lineage-21.0-caf-sm8550" />
 
