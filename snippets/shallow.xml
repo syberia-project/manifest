@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project name="device/google/cuttlefish_prebuilts" />
+    <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/4.19/arm64" />
+    <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.4/arm64" />
+    <project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.4/x86-64" />
+    <project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.10/arm64" />
+    <project path="kernel/prebuilts/5.10/arm64" name="kernel/prebuilts/5.10/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.10/x86-64" />
+    <project path="kernel/prebuilts/5.10/x86_64" name="kernel/prebuilts/5.10/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.15/arm64" />
+    <project path="kernel/prebuilts/5.15/arm64" name="kernel/prebuilts/5.15/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/5.15/x86-64" />
+    <project path="kernel/prebuilts/5.15/x86_64" name="kernel/prebuilts/5.15/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/6.1/arm64" />
+    <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/6.1/x86-64" />
+    <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/mainline/arm64" />
+    <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/mainline/x86-64" />
+    <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" clone-depth="1" />
+
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
+    <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" clone-depth="1" />
+
+    <remove-project name="platform/external/deqp" />
+    <project path="external/deqp" name="platform/external/deqp" clone-depth="1" />
+
+    <remove-project name="platform/external/icu" />
+    <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+
+    <remove-project name="platform/external/kotlinc" />
+    <project path="external/kotlinc" name="platform/external/kotlinc" clone-depth="1" />
+
+    <remove-project name="platform/external/linux-kselftest" />
+    <project path="external/linux-kselftest" name="platform/external/linux-kselftest" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+    <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/bazel/linux-x86_64" />
+    <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/build-tools" />
+    <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/clang-tools" />
+    <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/go/linux-x86" />
+    <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/gradle-plugin" />
+    <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/jdk/jdk11" />
+    <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/jdk/jdk17" />
+    <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/jdk/jdk21" />
+    <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/jdk/jdk8" />
+    <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/jdk/jdk9" />
+    <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/misc" />
+    <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/module_sdk/art" />
+    <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" clone-depth="1" />
+
+    <remove-project name="platform/tools/tradefederation/prebuilts" />
+    <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/android-emulator" />
+    <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/ndk" />
+    <project path="prebuilts/ndk" name="platform/prebuilts/ndk" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/ktlint" />
+    <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/qemu-kernel" />
+    <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1"  />
+
+    <remove-project name="platform/prebuilts/remoteexecution-client" />
+    <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/runtime" />
+    <project path="prebuilts/runtime" name="platform/prebuilts/runtime" clone-depth="1"  />
+
+    <remove-project name="platform/prebuilts/rust" />
+    <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/r8" />
+    <project path="prebuilts/r8" name="platform/prebuilts/r8" clone-depth="1"  />
+
+    <remove-project name="platform/prebuilts/sdk" />
+    <project path="prebuilts/sdk" name="platform/prebuilts/sdk" clone-depth="1" />
+
+    <remove-project name="platform/prebuilts/tools" />
+    <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" />
+</manifest>
