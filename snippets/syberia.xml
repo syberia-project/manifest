@@ -185,7 +185,7 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/google/gms" name="platform_vendor_google_gms_lfs" remote="syberia-gl" />
   <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
-  <project path="vendor/google/microsoft" name="platform_vendor_microsoft" remote="syberia-gl" />
+  <project path="vendor/microsoft/mms" name="platform_vendor_microsoft" remote="syberia-gl" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="syberia" />
   <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
 
